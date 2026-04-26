@@ -1,0 +1,10 @@
+# OS
+.DS_Store
+Thumbs.db
+
+# Editor
+.vscode/
+*.swp
+
+# CV original (no subir datos personales sensibles al repo público)
+CV - Diego Vargas Palominos (english).pdf

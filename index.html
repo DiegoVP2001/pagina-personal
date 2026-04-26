@@ -1,0 +1,424 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Diego Vargas Palominos</title>
+  <meta name="description" content="Ingeniero Civil Industrial Eléctrico, educador, corredor y creador de contenido. Apasionado por construir una Chile más equitativa a través de la educación." />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Fira+Code:wght@400;500&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <!-- NAV -->
+  <nav id="navbar">
+    <div class="nav-logo">DVP</div>
+    <ul class="nav-links">
+      <li><a href="#sobre-mi">Sobre mí</a></li>
+      <li><a href="#experiencia">Experiencia</a></li>
+      <li><a href="#educacion">Educación</a></li>
+      <li><a href="#proyectos">GitHub</a></li>
+      <li><a href="#youtube">YouTube</a></li>
+      <li><a href="#contacto" class="nav-cta">Contacto</a></li>
+    </ul>
+    <button class="hamburger" id="hamburger" aria-label="Menú">
+      <span></span><span></span><span></span>
+    </button>
+  </nav>
+
+  <!-- HERO -->
+  <section id="hero">
+    <div class="hero-content">
+      <div class="hero-text">
+        <p class="hero-greeting">Hola, soy</p>
+        <h1 class="hero-name">Diego Vargas<br/><span>Palominos</span></h1>
+        <p class="hero-tagline" id="typewriter"></p>
+        <p class="hero-bio">
+          Ingeniero Civil Industrial Eléctrico de la PUC, campeón universitario de cross-country
+          y educador comprometido con construir una Chile más equitativa.
+          Todo lo que hago nace de un propósito.
+        </p>
+        <div class="hero-actions">
+          <a href="#contacto" class="btn btn-primary">Escríbeme</a>
+          <a href="#sobre-mi" class="btn btn-outline">Conoce más</a>
+        </div>
+        <div class="social-links">
+          <a href="https://www.linkedin.com/in/diegovp2001/" target="_blank" rel="noopener" aria-label="LinkedIn">
+            <svg viewBox="0 0 24 24" fill="currentColor"><path d="M20.447 20.452h-3.554v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433a2.062 2.062 0 01-2.063-2.065 2.064 2.064 0 112.063 2.065zm1.782 13.019H3.555V9h3.564v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.222 0h.003z"/></svg>
+          </a>
+          <a href="https://github.com/DiegoVP2001" target="_blank" rel="noopener" aria-label="GitHub">
+            <svg viewBox="0 0 24 24" fill="currentColor"><path d="M12 .297c-6.63 0-12 5.373-12 12 0 5.303 3.438 9.8 8.205 11.385.6.113.82-.258.82-.577 0-.285-.01-1.04-.015-2.04-3.338.724-4.042-1.61-4.042-1.61C4.422 18.07 3.633 17.7 3.633 17.7c-1.087-.744.084-.729.084-.729 1.205.084 1.838 1.236 1.838 1.236 1.07 1.835 2.809 1.305 3.495.998.108-.776.417-1.305.76-1.605-2.665-.3-5.466-1.332-5.466-5.93 0-1.31.465-2.38 1.235-3.22-.135-.303-.54-1.523.105-3.176 0 0 1.005-.322 3.3 1.23.96-.267 1.98-.399 3-.405 1.02.006 2.04.138 3 .405 2.28-1.552 3.285-1.23 3.285-1.23.645 1.653.24 2.873.12 3.176.765.84 1.23 1.91 1.23 3.22 0 4.61-2.805 5.625-5.475 5.92.42.36.81 1.096.81 2.22 0 1.606-.015 2.896-.015 3.286 0 .315.21.69.825.57C20.565 22.092 24 17.592 24 12.297c0-6.627-5.373-12-12-12"/></svg>
+          </a>
+          <a href="https://www.youtube.com/@psudiego" target="_blank" rel="noopener" aria-label="YouTube">
+            <svg viewBox="0 0 24 24" fill="currentColor"><path d="M23.495 6.205a3.007 3.007 0 00-2.088-2.088c-1.87-.501-9.396-.501-9.396-.501s-7.507-.01-9.396.501A3.007 3.007 0 00.527 6.205a31.247 31.247 0 00-.522 5.805 31.247 31.247 0 00.522 5.783 3.007 3.007 0 002.088 2.088c1.868.502 9.396.502 9.396.502s7.506 0 9.396-.502a3.007 3.007 0 002.088-2.088 31.247 31.247 0 00.5-5.783 31.247 31.247 0 00-.5-5.805zM9.609 15.601V8.408l6.264 3.602z"/></svg>
+          </a>
+        </div>
+      </div>
+      <div class="hero-photo">
+        <div class="photo-wrapper">
+          <img src="assets/foto.jpg" alt="Diego Vargas Palominos" />
+        </div>
+      </div>
+    </div>
+    <div class="scroll-indicator">
+      <div class="scroll-line"></div>
+    </div>
+  </section>
+
+  <!-- SOBRE MÍ -->
+  <section id="sobre-mi">
+    <div class="container">
+      <h2 class="section-title"><span class="accent">01.</span> Sobre mí</h2>
+      <div class="about-grid">
+        <div class="about-text">
+          <p>
+            Soy Ingeniero Civil Industrial Eléctrico de la
+            <strong>Pontificia Universidad Católica de Chile</strong> (GPA 6,40 — Ranking 24/967)
+            y actualmente profesor de <strong>Enseña Chile</strong> y coordinador de proyectos en
+            <strong>Khan Academy Chile</strong>.
+          </p>
+          <p>
+            Mi propósito es apoyar a las comunidades más vulnerables de Chile,
+            especialmente a través de la educación. Fundé el canal de YouTube <strong>PSU Diego</strong>
+            para hacer el aprendizaje accesible, colaboré con múltiples organizaciones educativas,
+            mentoricé a tres generaciones de estudiantes de ingeniería y realicé mi práctica en el
+            <strong>Banco Central de Chile</strong>.
+          </p>
+          <p>
+            También soy atleta universitario de cross-country, campeón en 2022 y 2023,
+            y tercer lugar regional en 2025. Creo que la disciplina del deporte y el compromiso
+            social son las dos caras de la misma moneda.
+          </p>
+          <div class="about-highlights">
+            <div class="highlight-item">
+              <span class="highlight-number">6,40</span>
+              <span class="highlight-label">GPA — Rank 24/967</span>
+            </div>
+            <div class="highlight-item">
+              <span class="highlight-number">1°</span>
+              <span class="highlight-label">Prueba Competencias Fundamentales (466 estudiantes)</span>
+            </div>
+            <div class="highlight-item">
+              <span class="highlight-number">300+</span>
+              <span class="highlight-label">Alumnos en clases en vivo simultáneas</span>
+            </div>
+            <div class="highlight-item">
+              <span class="highlight-number">3×</span>
+              <span class="highlight-label">Campeón Universitario Cross-Country</span>
+            </div>
+          </div>
+        </div>
+        <div class="about-skills">
+          <h3>Áreas de trabajo</h3>
+          <div class="skill-tags">
+            <span>Educación</span>
+            <span>Análisis de datos</span>
+            <span>Modelamiento financiero</span>
+            <span>Contenido educativo</span>
+            <span>Liderazgo</span>
+            <span>Investigación</span>
+            <span>Python</span>
+            <span>Coordinación de proyectos</span>
+            <span>Tutoría</span>
+            <span>Impacto social</span>
+          </div>
+          <h3 style="margin-top:2rem;">Idiomas</h3>
+          <div class="skill-tags">
+            <span>Español (nativo)</span>
+            <span>Inglés (avanzado)</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- EXPERIENCIA -->
+  <section id="experiencia">
+    <div class="container">
+      <h2 class="section-title"><span class="accent">02.</span> Experiencia</h2>
+      <div class="timeline">
+
+        <div class="timeline-item" data-year="2026">
+          <div class="timeline-dot"></div>
+          <div class="timeline-card">
+            <div class="timeline-header">
+              <h3>Profesor</h3>
+              <span class="timeline-company">Enseña Chile</span>
+              <span class="timeline-date">2026 – 2027 · Santiago</span>
+            </div>
+            <p>Seleccionado entre el top 6% de postulantes. 180 horas de formación docente inicial en la Escuela de Verano, con 86 horas pedagógicas. 248 horas de formación continua en el Programa de Desarrollo de Liderazgo Colectivo.</p>
+            <div class="timeline-tags"><span>Pedagogía</span><span>Liderazgo</span><span>Impacto social</span></div>
+          </div>
+        </div>
+
+        <div class="timeline-item" data-year="2025">
+          <div class="timeline-dot"></div>
+          <div class="timeline-card">
+            <div class="timeline-header">
+              <h3>Coordinador de Proyectos</h3>
+              <span class="timeline-company">Khan Academy Chile</span>
+              <span class="timeline-date">Sep 2025 – Presente · Santiago</span>
+            </div>
+            <p>Impulsando la implementación sistemática de Khan Academy en colegios de todo Chile, asegurando integración efectiva e impacto educativo sostenible.</p>
+            <div class="timeline-tags"><span>Gestión de proyectos</span><span>Educación</span><span>EdTech</span></div>
+          </div>
+        </div>
+
+        <div class="timeline-item" data-year="2025">
+          <div class="timeline-dot"></div>
+          <div class="timeline-card">
+            <div class="timeline-header">
+              <h3>Practicante — Análisis de Riesgo</h3>
+              <span class="timeline-company">Banco Central de Chile</span>
+              <span class="timeline-date">Ene 2025 – Jun 2025 · Santiago</span>
+            </div>
+            <p>Análisis cuantitativo de riesgo para evaluar exposiciones de crédito soberano y liquidez usando modelos financieros avanzados. Desarrollo de dashboards de reportería y síntesis de investigación para soporte de toma de decisiones.</p>
+            <div class="timeline-tags"><span>Riesgo cuantitativo</span><span>Modelos financieros</span><span>Python</span></div>
+          </div>
+        </div>
+
+        <div class="timeline-item" data-year="2023">
+          <div class="timeline-dot"></div>
+          <div class="timeline-card">
+            <div class="timeline-header">
+              <h3>Ayudante de Investigación</h3>
+              <span class="timeline-company">Ingeniería UC — Investigación de Pregrado</span>
+              <span class="timeline-date">Jul 2023 – Presente · Santiago</span>
+            </div>
+            <ul>
+              <li>Investigó el impacto de la pandemia en el aprendizaje usando la base de datos del Puntaje Nacional.</li>
+              <li>Analizó la evolución de la convivencia escolar en 8° básico a través de cuestionarios SIMCE.</li>
+              <li>Analizó respuestas de cerca de 1.000 estudiantes sobre aspiraciones post-pandemia.</li>
+              <li>Automatizó la generación de reportes desde una base de datos de más de 4 millones de respuestas (APTUS).</li>
+            </ul>
+            <div class="timeline-tags"><span>Análisis de datos</span><span>Investigación educativa</span><span>Python</span></div>
+          </div>
+        </div>
+
+        <div class="timeline-item" data-year="2023">
+          <div class="timeline-dot"></div>
+          <div class="timeline-card">
+            <div class="timeline-header">
+              <h3>Tutor Voluntario</h3>
+              <span class="timeline-company">Programa de Tutores de Ingeniería PUC</span>
+              <span class="timeline-date">Ene 2023 – Presente · Santiago</span>
+            </div>
+            <p>Mentoricé tres cohortes de estudiantes de primer año de ingeniería, apoyando su adaptación a la vida académica y universitaria.</p>
+            <div class="timeline-tags"><span>Mentoría</span><span>Educación</span><span>Voluntariado</span></div>
+          </div>
+        </div>
+
+        <div class="timeline-item" data-year="2021">
+          <div class="timeline-dot"></div>
+          <div class="timeline-card">
+            <div class="timeline-header">
+              <h3>Profesor y Creador de Contenido</h3>
+              <span class="timeline-company">Puntaje Nacional</span>
+              <span class="timeline-date">Jul 2021 – Presente · Santiago</span>
+            </div>
+            <p>Dicté clases de matemáticas en vivo para más de 300 estudiantes simultáneos por año. Produje videos, ejercicios y capítulos de texto para preparar a estudiantes para la PAES.</p>
+            <div class="timeline-tags"><span>Docencia</span><span>Contenido digital</span><span>PAES</span></div>
+          </div>
+        </div>
+
+        <div class="timeline-item" data-year="2022">
+          <div class="timeline-dot"></div>
+          <div class="timeline-card">
+            <div class="timeline-header">
+              <h3>Voluntario — Coordinación y Docencia</h3>
+              <span class="timeline-company">Belén UC</span>
+              <span class="timeline-date">Mar 2022 – Dic 2024 · Santiago</span>
+            </div>
+            <ul>
+              <li>2022: Profesor de Matemáticas para preparación PAES.</li>
+              <li>2022: Coordinador de prueba de matemáticas.</li>
+              <li>2023: Coordinador de Formación Académica y Programa de Reforzamiento.</li>
+              <li>2024: Coordinador de Finanzas.</li>
+            </ul>
+            <div class="timeline-tags"><span>Liderazgo</span><span>Voluntariado</span><span>Educación</span></div>
+          </div>
+        </div>
+
+        <div class="timeline-item" data-year="2024">
+          <div class="timeline-dot"></div>
+          <div class="timeline-card">
+            <div class="timeline-header">
+              <h3>Creador de Contenido Educativo</h3>
+              <span class="timeline-company">Conectado Aprendo</span>
+              <span class="timeline-date">Ene 2024 – Dic 2024</span>
+            </div>
+            <p>Diseñé y lancé dos nuevos cursos (Ecuaciones y Geometría), expandiendo el currículo de cuatro a seis lecciones con 16 sesiones cada una.</p>
+            <div class="timeline-tags"><span>Diseño curricular</span><span>Contenido educativo</span></div>
+          </div>
+        </div>
+
+        <div class="timeline-item" data-year="2019">
+          <div class="timeline-dot"></div>
+          <div class="timeline-card">
+            <div class="timeline-header">
+              <h3>Creador de Contenido Educativo</h3>
+              <span class="timeline-company">PSU Diego (YouTube)</span>
+              <span class="timeline-date">Dic 2019 – Presente</span>
+            </div>
+            <p>Desarrollé y publiqué materiales gratuitos en redes sociales para preparar a estudiantes para el examen de admisión a la educación superior.</p>
+            <div class="timeline-tags"><span>YouTube</span><span>Educación gratuita</span><span>PAES/PSU</span></div>
+          </div>
+        </div>
+
+        <div class="timeline-item" data-year="2022">
+          <div class="timeline-dot"></div>
+          <div class="timeline-card">
+            <div class="timeline-header">
+              <h3>Atleta — Cross-Country</h3>
+              <span class="timeline-company">Cross Country PUC</span>
+              <span class="timeline-date">Mar 2022 – Ago 2023 & Mar 2025 – Presente</span>
+            </div>
+            <ul>
+              <li>🥇 Campeón Universitario Cross-Country, 2022</li>
+              <li>🥇 Campeón Universitario Cross-Country, 2023</li>
+              <li>🥇 Campeón Universitario de Atletismo, 2022</li>
+              <li>🥉 Tercer Lugar Regional Universitario Cross-Country, 2025</li>
+            </ul>
+            <div class="timeline-tags"><span>Deporte</span><span>Disciplina</span><span>Competencia</span></div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- EDUCACIÓN -->
+  <section id="educacion">
+    <div class="container">
+      <h2 class="section-title"><span class="accent">03.</span> Educación</h2>
+      <div class="edu-grid">
+        <div class="edu-card">
+          <div class="edu-icon">🎓</div>
+          <h3>Ingeniero Civil Industrial Eléctrico</h3>
+          <p class="edu-institution">Pontificia Universidad Católica de Chile</p>
+          <p class="edu-date">2020 – 2025</p>
+          <div class="edu-details">
+            <div class="edu-stat"><span class="stat-value">6,40</span><span class="stat-label">GPA</span></div>
+            <div class="edu-stat"><span class="stat-value">24/967</span><span class="stat-label">Ranking</span></div>
+            <div class="edu-stat"><span class="stat-value">1/466</span><span class="stat-label">Prueba Competencias</span></div>
+          </div>
+        </div>
+        <div class="edu-card edu-card-featured">
+          <div class="edu-icon">🏫</div>
+          <h3>Profesor — Programa de Formación Docente</h3>
+          <p class="edu-institution">Fundación Enseña Chile</p>
+          <p class="edu-date">2026 – 2027</p>
+          <ul class="edu-list">
+            <li>Top 6% de postulantes · Becario de formación</li>
+            <li>180 horas de formación inicial (86 horas pedagógicas)</li>
+            <li>248 horas de formación continua en Liderazgo Colectivo</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- GITHUB PROJECTS -->
+  <section id="proyectos">
+    <div class="container">
+      <h2 class="section-title"><span class="accent">04.</span> Proyectos en GitHub</h2>
+      <p class="section-subtitle">Mis repositorios más recientes en <a href="https://github.com/DiegoVP2001" target="_blank" rel="noopener">@DiegoVP2001</a></p>
+      <div class="repos-grid" id="repos-grid">
+        <div class="loading-spinner">
+          <div class="spinner"></div>
+          <p>Cargando repositorios...</p>
+        </div>
+      </div>
+      <div class="section-cta">
+        <a href="https://github.com/DiegoVP2001" target="_blank" rel="noopener" class="btn btn-outline">Ver todos en GitHub →</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- YOUTUBE -->
+  <section id="youtube">
+    <div class="container">
+      <h2 class="section-title"><span class="accent">05.</span> Canal de YouTube</h2>
+      <p class="section-subtitle">Contenido educativo gratuito en <a href="https://www.youtube.com/@psudiego" target="_blank" rel="noopener">@psudiego</a></p>
+      <div class="yt-banner">
+        <div class="yt-banner-text">
+          <div class="yt-logo">
+            <svg viewBox="0 0 24 24" fill="currentColor" width="40" height="40"><path d="M23.495 6.205a3.007 3.007 0 00-2.088-2.088c-1.87-.501-9.396-.501-9.396-.501s-7.507-.01-9.396.501A3.007 3.007 0 00.527 6.205a31.247 31.247 0 00-.522 5.805 31.247 31.247 0 00.522 5.783 3.007 3.007 0 002.088 2.088c1.868.502 9.396.502 9.396.502s7.506 0 9.396-.502a3.007 3.007 0 002.088-2.088 31.247 31.247 0 00.5-5.783 31.247 31.247 0 00-.5-5.805zM9.609 15.601V8.408l6.264 3.602z"/></svg>
+            <span>PSU Diego</span>
+          </div>
+          <p>Materiales gratuitos para la PAES/PSU: clases de matemáticas, ejercicios, guías y más. Acceso para todos, sin excepción.</p>
+          <a href="https://www.youtube.com/@psudiego" target="_blank" rel="noopener" class="btn btn-youtube">Ir al canal</a>
+        </div>
+      </div>
+      <div class="videos-grid" id="videos-grid">
+        <div class="loading-spinner">
+          <div class="spinner"></div>
+          <p>Cargando videos...</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- CONTACTO -->
+  <section id="contacto">
+    <div class="container">
+      <h2 class="section-title"><span class="accent">06.</span> Contacto</h2>
+      <div class="contact-wrapper">
+        <div class="contact-info">
+          <h3>¿Hablamos?</h3>
+          <p>Estoy siempre abierto a colaborar en proyectos educativos, investigaciones, charlas o cualquier iniciativa que genere impacto positivo.</p>
+          <div class="contact-links">
+            <a href="mailto:diego010427@gmail.com" class="contact-link">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/><polyline points="22,6 12,12 2,6"/></svg>
+              diego010427@gmail.com
+            </a>
+            <a href="https://www.linkedin.com/in/diegovp2001/" target="_blank" rel="noopener" class="contact-link">
+              <svg viewBox="0 0 24 24" fill="currentColor"><path d="M20.447 20.452h-3.554v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433a2.062 2.062 0 01-2.063-2.065 2.064 2.064 0 112.063 2.065zm1.782 13.019H3.555V9h3.564v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.222 0h.003z"/></svg>
+              linkedin.com/in/diegovp2001
+            </a>
+            <a href="https://github.com/DiegoVP2001" target="_blank" rel="noopener" class="contact-link">
+              <svg viewBox="0 0 24 24" fill="currentColor"><path d="M12 .297c-6.63 0-12 5.373-12 12 0 5.303 3.438 9.8 8.205 11.385.6.113.82-.258.82-.577 0-.285-.01-1.04-.015-2.04-3.338.724-4.042-1.61-4.042-1.61C4.422 18.07 3.633 17.7 3.633 17.7c-1.087-.744.084-.729.084-.729 1.205.084 1.838 1.236 1.838 1.236 1.07 1.835 2.809 1.305 3.495.998.108-.776.417-1.305.76-1.605-2.665-.3-5.466-1.332-5.466-5.93 0-1.31.465-2.38 1.235-3.22-.135-.303-.54-1.523.105-3.176 0 0 1.005-.322 3.3 1.23.96-.267 1.98-.399 3-.405 1.02.006 2.04.138 3 .405 2.28-1.552 3.285-1.23 3.285-1.23.645 1.653.24 2.873.12 3.176.765.84 1.23 1.91 1.23 3.22 0 4.61-2.805 5.625-5.475 5.92.42.36.81 1.096.81 2.22 0 1.606-.015 2.896-.015 3.286 0 .315.21.69.825.57C20.565 22.092 24 17.592 24 12.297c0-6.627-5.373-12-12-12"/></svg>
+              github.com/DiegoVP2001
+            </a>
+          </div>
+        </div>
+        <form class="contact-form" id="contact-form">
+          <div class="form-group">
+            <label for="name">Nombre</label>
+            <input type="text" id="name" name="name" placeholder="Tu nombre" required />
+          </div>
+          <div class="form-group">
+            <label for="email">Correo</label>
+            <input type="email" id="email" name="email" placeholder="tu@correo.com" required />
+          </div>
+          <div class="form-group">
+            <label for="subject">Asunto</label>
+            <input type="text" id="subject" name="subject" placeholder="¿En qué puedo ayudarte?" required />
+          </div>
+          <div class="form-group">
+            <label for="message">Mensaje</label>
+            <textarea id="message" name="message" rows="5" placeholder="Cuéntame más..." required></textarea>
+          </div>
+          <button type="submit" class="btn btn-primary btn-full">Enviar mensaje</button>
+        </form>
+      </div>
+    </div>
+  </section>
+
+  <!-- FOOTER -->
+  <footer>
+    <div class="container">
+      <p>Diseñado y desarrollado por Diego Vargas Palominos · 2025</p>
+      <div class="footer-links">
+        <a href="https://github.com/DiegoVP2001" target="_blank" rel="noopener">GitHub</a>
+        <a href="https://www.linkedin.com/in/diegovp2001/" target="_blank" rel="noopener">LinkedIn</a>
+        <a href="https://www.youtube.com/@psudiego" target="_blank" rel="noopener">YouTube</a>
+      </div>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
