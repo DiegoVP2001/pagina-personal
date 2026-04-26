@@ -7,7 +7,9 @@
   <meta name="description" content="Ingeniero Civil Industrial Eléctrico, educador, corredor y creador de contenido. Apasionado por construir una Chile más equitativa a través de la educación." />
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Fira+Code:wght@400;500&display=swap" rel="stylesheet" />
+  <link rel="preload" href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Fira+Code:wght@400&display=swap" as="style" onload="this.onload=null;this.rel='stylesheet'" />
+  <noscript><link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Fira+Code:wght@400&display=swap" rel="stylesheet" /></noscript>
+  <link rel="preload" href="assets/foto.jpg" as="image" />
   <link rel="stylesheet" href="style.css" />
 </head>
 <body>
@@ -58,7 +60,7 @@
       </div>
       <div class="hero-photo">
         <div class="photo-wrapper">
-          <img src="assets/foto.jpg" alt="Diego Vargas Palominos" />
+          <img src="assets/foto.jpg" alt="Diego Vargas Palominos" loading="eager" fetchpriority="high" />
         </div>
       </div>
     </div>
