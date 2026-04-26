@@ -6,5 +6,4 @@ Thumbs.db
 .vscode/
 *.swp
 
-# CV original (no subir datos personales sensibles al repo público)
-CV - Diego Vargas Palominos (english).pdf
+# CV is included intentionally for the download button on the website
