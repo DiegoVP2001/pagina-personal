@@ -18,7 +18,7 @@ navLinks.querySelectorAll('a').forEach(link => {
    TYPEWRITER
 =========================== */
 const phrases = [
-  'National Cross Country Champion',
+  'University Cross Country Champion',
   'Industrial Electrical Engineer',
   'Educator & Content Creator',
   'Data & Education Project Coordinator',
@@ -200,7 +200,7 @@ async function loadYouTubeVideos() {
       revealObserver.observe(card);
     });
   } catch {
-    grid.innerHTML = `<div style="grid-column:1/-1;text-align:center;color:var(--text-muted);padding:1rem;"><p style="margin-bottom:1rem;">Visit the channel to watch the latest videos.</p><a href="https://www.youtube.com/@psudiego" target="_blank" rel="noopener" class="btn btn-youtube" style="display:inline-flex;">View Channel →</a></div>`;
+    grid.innerHTML = `<div style="grid-column:1/-1;text-align:center;color:var(--text-muted);padding:1rem;"><p>Visit <a href="https://www.youtube.com/@psudiego" target="_blank" rel="noopener">@psudiego</a> to watch the latest videos.</p></div>`;
   }
 }
 loadYouTubeVideos();
